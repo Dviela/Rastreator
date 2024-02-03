@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="Ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane fx:id="tpWebs" layoutX="14.0" layoutY="15.0" prefHeight="268.0" prefWidth="541.0" tabClosingPolicy="UNAVAILABLE" />
+      <Button fx:id="btCWords" layoutX="24.0" layoutY="293.0" mnemonicParsing="false" onAction="#chargeWords" text="Cargar Palabras" textFill="#2e6814" />
+      <Button fx:id="btCwebs" layoutX="138.0" layoutY="293.0" mnemonicParsing="false" onAction="#chargeWebs" text="Cargar Webs" textFill="#170f80" />
+   </children>
+</AnchorPane>
